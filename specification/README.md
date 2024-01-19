@@ -42,7 +42,7 @@ Sending (and receiving) a message takes place in 3 steps, although only the firs
 4. Encrypt the delivery information using the public encryption key of the delivery service (part of the delivery service profile). The mandatory encryption algorithm is **x25519-chacha20-poly1305**.
 
 ```mermaid
-  sequenceDiagram
+sequenceDiagram 
     participant AA as Alice' Client
     participant E as Registry (ENS)
     participant P as Profile Storage (e.g. IPFS)
@@ -84,7 +84,7 @@ Sending (and receiving) a message takes place in 3 steps, although only the firs
 5. Optional: send notification(s) to the receiver that a message is waiting for delivery.
 
 ```mermaid
-  sequenceDiagram
+ sequenceDiagram
     actor A as Alice
     participant AA as Alice' Client
     participant BD as Bobs's Delivery Service
