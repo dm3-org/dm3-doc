@@ -12,11 +12,15 @@ The delivery service
 
 Delivery service nodes can be operated as a service or self-sovereign by the user. The protocol explicitly allows (see user profile) a user to point to multiple delivery services so that if one is not available, another can be used. However, delivery service nodes can also act as gateways to other protocols, services, or applications.
 
+<figure><img src="../../.gitbook/assets/decentralization.svg" alt=""><figcaption></figcaption></figure>
+
 ### Gateway to other service
 
 If a delivery service works as a gateway to another protocol or service, it must implement the API to receive dm3 messages. However, how it then processes the messages and delivers them to the ecosystem to which it is acting as a gateway is completely up to it and depends only on the service or protocol to which it is connecting.
 
 A gateway can also provide multiple delivery service nodes as primary and fallback services.
+
+<figure><img src="../../.gitbook/assets/interop_gateways.svg" alt=""><figcaption></figcaption></figure>
 
 ## Cross Chain Applications
 
