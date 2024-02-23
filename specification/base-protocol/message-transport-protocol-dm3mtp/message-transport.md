@@ -80,7 +80,7 @@ sequenceDiagram
 1. Decrypt delivery information.
 2. Apply filter rules from the receiver's profile extension. Discard the message if conditions are not met.
 3. Create a postmark. The postmark protocols the reception and buffering of the message.
-4. Buffer message. The delivery service is responsible to store the encrypted message until the receiver picks it up. A delivery service may decide to have a max holding time. It must be at least 1 month. If the receiver didn't fetch the message within this time, the message may be deleted. This time can be queried from the delivery service' properties
+4. Buffer message. The delivery service stores the encrypted message until the receiver picks it up. A delivery service may decide to have a maximum holding time. It must be at least 1 month. If the receiver didn't fetch the message within this time, the message may be deleted. This time can be queried from the delivery service's properties
 5. Optional: send notification(s) to the receiver that a message is waiting for delivery.
 
 ```mermaid
@@ -135,7 +135,7 @@ DEFINITION: Message Data Structure
    metadata: MessageMetadata,
    // message attachments e.g. images as an array of URIs
    // (optional)
-   attachments?: string[],
+   attachments?: Attachment[],
    //the signature of the sender
    // sign( sha256( safe-stable-stringify( struct_without_sig ) ) )
    signature: string
@@ -188,26 +188,37 @@ DEFINITION: Message Metadata Structure
 
 ## Attachments
 
-Attachments can be any type of additional data or media files. These are organized as an array of URIs. Embedded content is encoded as data scheme, external data as URL or IPFS. A message can have no or an arbitrary number of attachments. The overall size of the message (inclusive of all embedded attachments) MUST be less than 20MB. The overall size of the message can be restricted additionally by the delivery service (see Delivery Service Properties.) If bigger media files need to be attached, the actual data need to be stored outside the message (still encrypted with the receiver's public key) and the attachment contains only the reference (URI with HTTPS or IPFS scheme). Otherwise, the attachment may be included with URI scheme data.
+Attachments can be any type of additional data or media files. These are organized as an array of URIs and metadata. Embedded content is encoded as data scheme, external data as URL or IPFS. A message can have no or an arbitrary number of attachments. The overall size of the message (inclusive of all embedded attachments) MUST be less than 20MB. The overall size of the message can be restricted additionally by the delivery service (see Delivery Service Properties.) If bigger media files need to be attached, the actual data need to be stored outside the message (still encrypted with the receiver's public key) and the attachment contains only the reference (URI with HTTPS or IPFS scheme). Otherwise, the attachment may be included with URI scheme data.
 
-Different **dm3** compatible applications may handle attachments differently (visualization, embedding, or even ignoring them). Applications may optionally support other encodings than text/markdown for the message. These may be added as attachment and visualized instead of the original message text. It is the application's responsibility to do this properly.
+Different **dm3** compatible applications may handle attachments differently (visualization, embedding, or even ignoring them). Applications may optionally support other encodings than text/markdown for the message. These may be added as attachments and visualized instead of the original message text. It is the application's responsibility to do this properly.
+
+```
+DEFINITION: Attachment
+{
+    // the name of the attachment. In the case of a file, this is the file name.
+    name: string,
+    // the data of the attachment or a reference to it 
+    data: string
+    // other metadata may be added if needed
+}
+```
 
 _**Examples:**_
 
-> ```JavaScript
-> "attachments":["data:text/html;base64,dfEwwewGJsaWKklNyeX...",...],
+> ```json
+> "attachments":[{"name":"file.html","data":"data:text/html;base64,dfEwwewGJsaWKklNyeX..."},...],
 > ```
 
-> ```JavaScript
-> "attachments":["data:image/jpeg;base64,dfEwwewGJsaWKklNyeX...",...],
+> ```json
+> "attachments":[{"name":"image.jpg","data":"data:image/jpeg;base64,dfEwwewGJsaWKklNyeX..."},...],
 > ```
 
-> ```JavaScript
-> "attachments":["https://exampleservice/exampleresource",...],
+> ```json
+> "attachments":[{"name":"","data":"https://exampleservice/exampleresource"},...],
 > ```
 
-> ```JavaScript
-> "attachments":["ipfs://AmE6mn1n64Q...",...],
+> ```json
+> "attachments":[{"name":"file.xyz","data:":"ipfs://AmE6mn1n64Q..."},...],
 > ```
 
 ## Encryption Envelope Data Structure
