@@ -22,8 +22,8 @@
 
 ***
 
-* [Billboard Messaging](billboard-messaging/README.md)
-  * [Architecture](billboard-messaging/architecture.md)
-  * [Billboard Node](billboard-messaging/billboard-node.md)
-  * [Billboard Service API](billboard-messaging/billboard-service-api.md)
-  * [Embedded Widget](billboard-messaging/embedded-widget.md)
+* [Billboard Message Protocol (DM3BMP)](billboard-message-protocol-dm3bmp/README.md)
+  * [Architecture](billboard-message-protocol-dm3bmp/architecture.md)
+  * [Billboard Node](billboard-message-protocol-dm3bmp/billboard-node.md)
+  * [Billboard Service API](billboard-message-protocol-dm3bmp/billboard-service-api.md)
+  * [Embedded Widget](billboard-message-protocol-dm3bmp/embedded-widget.md)
