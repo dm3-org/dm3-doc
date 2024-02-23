@@ -119,8 +119,8 @@ The message data structure stores all data belonging to the message that can onl
 
 The message data structure contains the following information:
 
-* **Message:** _(OPTIONAL)_ This string contains the actual message. For service messages (like READ\_RECEIPT, RESEND\_REQUEST, or DELETE\_REQUEST), this field may be empty or undefined. The message MUST be **plain text** (UTF-8), optionally flavored with **Markdown** highlightings. If other encodings of the message are provided, those MUST be attached as attachment (embedded with data scheme only), still providing the text representation in the message string. Clients able to interpret the encoded attachment may display this instead of the original message string. Others will visualize the message text as plain text or Markdown formatting.
-* **Metadata:** This object contains all meta information about the message. Some attributes are mandatory, others are optional. Also, application-specific attributes can be added. The [MessageMetadata-Structure](broken-reference) is described in detail below.
+* **Message:** _(OPTIONAL)_ This string contains the actual message. For service messages (like READ\_RECEIPT, RESEND\_REQUEST, or DELETE\_REQUEST), this field may be empty or undefined. The message MUST be **plain text** (UTF-8), optionally flavored with **Markdown** highlightings. If other encodings of the message are provided, those MUST be attached as an attachment (embedded with data scheme only), still providing the text representation in the message string. Clients able to interpret the encoded attachment may display this instead of the original message string. Others will visualize the message text as plain text or Markdown formatting.
+* **Metadata:** This object contains all meta-information about the message. Some attributes are mandatory, others are optional. Also, application-specific attributes can be added. The [MessageMetadata-Structure](broken-reference) is described in detail below.
 * **Attachments:** _(OPTIONAL)_ Media or other files or special encodings of the message may be an attachment to a message, defined as an array of URIs (data, HTTPS, IPFS). [Attachments](broken-reference) are described in detail below.
 * **Signature:** This is the signature with the sender's signature key on the SHA-256 hash of the message data structure without the signature field.
 
@@ -196,7 +196,8 @@ Different **dm3** compatible applications may handle attachments differently (vi
 DEFINITION: Attachment
 {
     // the name of the attachment. In the case of a file, this is the file name.
-    name: string,
+    // optional (not needed if no name is avaialable)
+    name?: string,
     // the data of the attachment (URI) or a reference to it 
     data: string
     // other metadata may be added if needed
@@ -206,19 +207,38 @@ DEFINITION: Attachment
 _**Examples:**_
 
 > ```json
-> "attachments":[{"name":"file.html","data":"data:text/html;base64,dfEwwewGJsaWKklNyeX..."},...],
+> "attachments":[
+>     {
+>         "name":"file.html",
+>         "data":"data:text/html;base64,dfEwwewGJsaWKklNyeX..."
+>     },
+>     ...],
 > ```
 
 > ```json
-> "attachments":[{"name":"image.jpg","data":"data:image/jpeg;base64,dfEwwewGJsaWKklNyeX..."},...],
+> "attachments":[
+>     {
+>         "name":"image.jpg",
+>         "data":"data:image/jpeg;base64,dfEwwewGJsaWKklNyeX..."
+>     },
+>     ...],
 > ```
 
 > ```json
-> "attachments":[{"name":"","data":"https://exampleservice/exampleresource"},...],
+> "attachments":[
+>     {
+>         "data":"https://exampleservice/exampleresource"
+>     },
+>     ...],
 > ```
 
 > ```json
-> "attachments":[{"name":"file.xyz","data:":"ipfs://AmE6mn1n64Q..."},...],
+> "attachments":[
+>     {
+>         "name":"file.xyz",
+>         "data:":"ipfs://AmE6mn1n64Q..."
+>     }
+>     ,...],
 > ```
 
 ## Encryption Envelope Data Structure
