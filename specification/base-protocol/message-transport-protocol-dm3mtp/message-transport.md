@@ -124,7 +124,7 @@ The message data structure contains the following information:
 * **Attachments:** _(OPTIONAL)_ Media or other files or special encodings of the message may be an attachment to a message, defined as an array of URIs (data, HTTPS, IPFS). [Attachments](broken-reference) are described in detail below.
 * **Signature:** This is the signature with the sender's signature key on the SHA-256 hash of the message data structure without the signature field.
 
-```JavaScript
+```json5
 DEFINITION: Message Data Structure
 
 {
@@ -162,7 +162,7 @@ The **message metadata structure** contains the following information:
 * **Reference Message Hash:** _(OPTIONAL)_ The hash of a previous message that the new one references. Must be set for message types (REPLY, DELETE\_REQUEST, EDIT, REACTION, RESEND\_REQUEST).
 * **Reply Delivery Instruction:** _(OPTIONAL)_ It is needed for compatibility reasons with other protocols/apps. The stored information MUST be delivered with any reply (e.g., a conversation or topic id, ...) as meta information of the [encryption envelope](broken-reference). It is neither evaluated nor altered from **dm3**.
 
-```JavaScript
+```json5
 DEFINITION: Message Metadata Structure
 
 {
@@ -192,12 +192,12 @@ Attachments can be any type of additional data or media files. These are organiz
 
 Different **dm3** compatible applications may handle attachments differently (visualization, embedding, or even ignoring them). Applications may optionally support other encodings than text/markdown for the message. These may be added as attachments and visualized instead of the original message text. It is the application's responsibility to do this properly.
 
-```
+```json5
 DEFINITION: Attachment
 {
     // the name of the attachment. In the case of a file, this is the file name.
     name: string,
-    // the data of the attachment or a reference to it 
+    // the data of the attachment (URI) or a reference to it 
     data: string
     // other metadata may be added if needed
 }
@@ -231,7 +231,7 @@ The encryption envelope contains the following data:
 * **Metadata:** This object contains all meta information about the envelope. Some attributes are mandatory, others are optional. Also, application-specific attributes can be added. The [EnvelopeMetadata Structure](broken-reference) is described in detail below.
 * **Postmark:** _(OPTIONAL)_ A data struct with the information on the delivery status. Postmark is empty/undefined when the sender is sending the envelope to the delivery service. It is added by the delivery service and is encrypted based on the public key of the receiver.
 
-```JavaScript
+```json5
 DEFINITION: Encryption Envelope Structure
 
 {
@@ -256,7 +256,7 @@ The **envelope metadata structure** contains the following data:
 * **Encryption Scheme:** The used encryption and signing algorithms. The default is **x25519-chacha20-poly1305**. If this field is not set (undefined), the default is being used.
 * **Delivery Information:** A data struct with the delivery information needed by the delivery service (message metadata).
 
-```JavaScript
+```json5
 DEFINITION: Envelope Metadata Structure
 
 {
@@ -287,7 +287,7 @@ The data structure contains the following information:
 * **From:** the ENS name of the sender
 * **Delivery Instruction:** this is optional information. It is needed for compatibility reasons with other protocols/apps. The stored information (e.g., a conversation or topic id, ...) will be delivered with any reply from the receiver. It is neither evaluated nor altered from **dm3**.
 
-```JavaScript
+```json5
 DEFINITION: Delivery Information
 
 {
@@ -312,7 +312,7 @@ It contains the following information:
 * **Delivery Information:** This is a copy of the delivery information provided in the envelope. As this info in the envelope is encrypted for the delivery service, it MUST be added from the delivery service to the postmark. The receiver can use this information to check if the sender of the message referenced in the [Message Metadata](broken-reference)) is the same as referenced in the envelope.
 * **Signature:** the signature of the postmark from the delivery service. This is needed to validate the postmark information.
 
-```JavaScript
+```json5
 DEFINITION: Postmark
 
 {
