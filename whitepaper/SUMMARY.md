@@ -10,11 +10,15 @@
 ## The dm3 Protocol
 
 * [Motivation](the-dm3-protocol/motivation.md)
-* [The Core Protocol](the-dm3-protocol/the-core-protocol/README.md)
-  * [Interoperability](the-dm3-protocol/the-core-protocol/interoperability.md)
-  * [Spam Protection](the-dm3-protocol/the-core-protocol/spam-protection.md)
-* [Architecture](the-dm3-protocol/architecture.md)
+* [The Protocol](the-dm3-protocol/the-protocol/README.md)
+  * [Interoperability](the-dm3-protocol/the-protocol/interoperability.md)
+  * [Spam Protection](the-dm3-protocol/the-protocol/spam-protection.md)
+  * [Architecture](the-dm3-protocol/the-protocol/architecture/README.md)
+    * [Protocol extensions](the-dm3-protocol/the-protocol/architecture/protocol-extensions.md)
+    * [Utility extensions](the-dm3-protocol/the-protocol/architecture/utility-extensions.md)
 
-***
+## DM3 Token
 
-* [Page 1](page-1.md)
+* [The DM3 Token and Tokenomics](dm3-token/the-dm3-token-and-tokenomics.md)
+* [Token Utilities](dm3-token/token-utilities.md)
+* [Page](dm3-token/page.md)
