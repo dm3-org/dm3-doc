@@ -19,6 +19,7 @@
 
 ## DM3 Token
 
-* [The DM3 Token and Tokenomics](dm3-token/the-dm3-token-and-tokenomics.md)
+* [Token](dm3-token/token.md)
 * [Token Utilities](dm3-token/token-utilities.md)
-* [Page](dm3-token/page.md)
+* [Token Distribution](dm3-token/token-distribution.md)
+* [Tokenomics](dm3-token/tokenomics.md)
