@@ -6,7 +6,9 @@ The user must trust the provider that they have implemented everything correctly
 
 ## Open Source - Open Standards
 
-Trustless software is only possible if the source codes from which the software is built or which form the core of the used libraries are fully and openly accessible.
+Trustless software is only possible if the source codes from which the software is built or which form the core of the used libraries are fully and openly accessible. Otherwise, censorship, privacy violations, and even insecure encryption cannot be ruled out without trusting the provider. Offering a secure messenger is not enough to promise secure software standards and, in the best case, even use them. The software must be verifiable and, above all, independent of a trusted provider.
+
+The situation is very similar to the standards. Standards should not be defined by a powerful party that then enforces the quasi-standard with its market power (as has unfortunately very often been the case in the past). Nor should a standard be misused to allow a powerful party to consolidate its supremacy by imposing its interests by controlling the definition of the quasi-standard and dominating or even bullying smaller market participants. Open standards are most available to a community when they are available as a public good and open source. Then, everyone is free to contribute, the community can actively participate in the review and further development, and no party controls the code to the detriment of other market participants.
 
 ## Inclusivity and Accessibility
 
