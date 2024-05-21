@@ -12,7 +12,7 @@ The situation is very similar to the standards. Standards should not be defined 
 
 ## Inclusivity and Accessibility
 
+DM3 is designed as a public good based on open-source software. It is a community-driven protocol and application. The public good approach is essential to enable the protocol to be used in both large and small applications. All participants have the same rights, so neither large nor small solutions are disadvantaged or have to fear that they will suffer a disadvantage when using DM3.
 
-
-## Community
+Through the community's collective efforts, the protocol can evolve to achieve the goal of a connected messaging ecosystem. The specification and code are freely available, and the community can contribute important parts. The free availability as open source also enables companies and organizations behind established solutions to participate.
 

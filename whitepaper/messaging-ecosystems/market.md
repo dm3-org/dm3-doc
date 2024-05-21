@@ -2,11 +2,13 @@
 
 ### Market size (potential users)
 
-In the ever-evolving realm of communication, messaging has emerged as a cornerstone of digital interactions. With the proliferation of modern messaging platforms, the number of active users has surged, illustrating the integral role these tools play in our interconnected world.
+Messaging has become a cornerstone of digital interactions in the ever-evolving communication realm. With the proliferation of modern messaging platforms, the number of active users has surged, illustrating these tools' integral role in our interconnected world.
 
 #### **The Current Landscape**&#x20;
 
-As we peer into the present, it's evident that messaging platforms have etched themselves into the lives of over a quarter of the global population. Around 26% of individuals ([source](https://www.similarweb.com/blog/research/market-research/worldwide-messaging-apps/)) are engaged with one or more messaging platforms, ranging from household names like WhatsApp, Facebook Messenger, Telegram, Viber, Line, to Snapchat. Leading this pack is WhatsApp, boasting 2.7 billion monthly active users ([source](https://www.bankmycell.com/blog/number-of-whatsapp-users/)), closely followed by Facebook Messenger with 931 million ([source](https://www.bankmycell.com/blog/number-of-facebook-messenger-users/)), and Telegram with 700 million monthly active users ([source](https://www.bankmycell.com/blog/number-of-telegram-users/)).
+As we peer into the present, it's evident that messaging platforms have etched themselves into the lives of over a quarter of the global population. Around 26% of individuals \[^1] ([source](https://www.similarweb.com/blog/research/market-research/worldwide-messaging-apps/)) are engaged with one or more messaging platforms, ranging from household names like WhatsApp, Facebook Messenger, Telegram, Viber, Line, to Snapchat. Leading this pack is WhatsApp, boasting 2.7 billion monthly active users ([source](https://www.bankmycell.com/blog/number-of-whatsapp-users/)), closely followed by Facebook Messenger with 931 million ([source](https://www.bankmycell.com/blog/number-of-facebook-messenger-users/)), and Telegram with 700 million monthly active users ([source](https://www.bankmycell.com/blog/number-of-telegram-users/)).
+
+\[^1]: [https://www.similarweb.com/blog/research/market-research/worldwide-messaging-apps/](https://www.similarweb.com/blog/research/market-research/worldwide-messaging-apps/)
 
 #### **Transitioning to Protected and Confidential Communication**&#x20;
 
