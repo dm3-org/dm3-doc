@@ -1,6 +1,6 @@
 # Motivation
 
-The dm3 protocol provides a decentralized, end-to-end encrypted messaging protocol. It aims to bridge interoperability gaps across platforms without compromising security, privacy, or user experience, thereby transforming the messaging ecosystem for a connected and self-sovereign communication future.
+The DM3 protocol provides a decentralized, end-to-end encrypted messaging protocol. It aims to bridge interoperability gaps across platforms without compromising security, privacy, or user experience, transforming the messaging ecosystem for a connected and self-sovereign communication future.
 
 ## The Mission
 

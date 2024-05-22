@@ -25,14 +25,14 @@ Even if the content of DM3 messages is end-to-end encrypted and therefore privat
 
 Message relay nodes can offer this privacy service as an option. These services can be remunerated via a decoupled incentive system without restricting privacy.
 
-**3.7.5. Linked Profiles**
+### **Linked Profiles**
 
 Messaging is used in a wide variety of applications. In addition to the main messenger, which represents a user's inbox and is their central communication platform, messaging components can be integrated into other applications (e.g., wallet-to-wallet or app-to-app messaging, support messenger, ...). Usually, these embedded messaging functions are independent and often neither decentralized nor well-secured.&#x20;
 
-With DM3 embedded components and linked profiles (limited-scope profiles), local or application-related profiles can be created that are controlled with the same wallet or identity. If required, these can simply be linked to the user's main inbox so that they can track these communications there.
+With DM3 embedded components and linked profiles (limited-scope profiles), local or application-related profiles can be created and controlled with the same wallet or identity. If required, these can be linked to the user's main inbox so that they can track these communications there.
 
 This allows users to create and maintain anonymous sub-profiles for these applications and link them to the main profile, allowing them to manage important communications in one place.
 
-**3.7.6. Token gated access**
+### **Token gated access**
 
 For various applications, it makes sense that only a limited user group can participate in communication. In centralized applications, access restriction is implemented by central user management. In a decentralized application, access control can be controlled via the possession of tokens or NFTs. With this extension, building closed communities that are fully interoperable with other messengers is also possible.
