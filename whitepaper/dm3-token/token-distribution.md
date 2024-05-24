@@ -50,3 +50,7 @@ Early adopters are users of dm3-based applications who have a DM3 profile and ha
 * Promote the use of DM3-based products,
 * Promote the spread of the standard,
 * to provide early users with tokens for the utilities (e.g., spam protection) and thus motivate using these functions.
+
+### Public Token Sale
+
+In particular, to achieve an even better distribution of the tokens, some from the community pool can be offered in a public sale. This is optional and will be conducted as circumstances require (e.g., improvement of token distribution) and when the market environment is favorable.
