@@ -23,3 +23,7 @@
 * [Token Utilities](dm3-token/token-utilities.md)
 * [Token Distribution](dm3-token/token-distribution.md)
 * [Tokenomics](dm3-token/tokenomics.md)
+
+***
+
+* [References](references.md)
