@@ -73,7 +73,7 @@ description: Pre-token-launch investment opportunity
 ### Funding targetQ3/2024
 
 * **€3-5M** \
-  (at €80M network valuation at the fully distributed token cap of 100M tokens (with the option for tokens at 0.80€ per token))
+  (at €80M network valuation at the fully distributed token cap of 100M tokens with the option for tokens at 0.80€ per token)
 
 ### Documents, Resources
 
