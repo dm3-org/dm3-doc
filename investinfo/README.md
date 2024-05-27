@@ -1,8 +1,12 @@
-# Investment Information
+---
+description: Pre-launch token investment opportunity
+---
+
+# Investment Information 06/2024
 
 ## DM3 is the web3 messaging interoperability protocol.
 
-## Unique Features
+### Unique Features
 
 * Messaging interoperability
 * Web3-based Spam-Protection
@@ -10,7 +14,7 @@
 
 ***
 
-## Technical details
+### Technical details
 
 * focused on
   * secure end-to-end encryption
@@ -32,7 +36,7 @@
   * Key/account-based message transmission
   * Token-based spam slushing.
 
-## DM3 Token
+### DM3 Token
 
 * Utility token of the dm3 network
   * Governance
@@ -42,14 +46,14 @@
 
 ***
 
-## Company/organization/network info
+### Company/organization/network info
 
 * dm3.org gGmbH – a non-profit company that maintains and coordinates the development of the DM3 protocol, community building, and the dm3 ecosystem.
 * DM3 protocol – open-source and public good of the community.
 * The value is in the network (in the future, represented by the token)
 * The community will be involved in the development and future decisions through token-based governance.
 
-## Cooperation, partnerships, and integrations with ecosystems and dApps
+### Cooperation, partnerships, and integrations with ecosystems and dApps
 
 * ENS (Ethereum Name Service)
 * Space-ID/Genome
@@ -60,18 +64,18 @@
 * CommonGround
 * Polymorphic.capital
 
-## Financials
+### Financials
 
 * €410k in grants (2023, Q1/2024) from web3 community (Gitcoin, OP, ENS, Gnosis)
 * €500k pre-seed investment (Q3/2023) from Polymorphic.capital \
   (at €45M network valuation at fully distributed token cap of 100M tokens with options for tokens at 0.45€ per token)
 
-## Funding targetQ3/2024
+### Funding targetQ3/2024
 
 * **€3-5M** \
   (at €80M network valuation at the fully distributed token cap of 100M tokens (with the option for tokens at 0.80€ per token))
 
-## Documents, Resources
+### Documents, Resources
 
 * Specification, technical doc:\
   [https://specification.dm3.network](https://specification.dm3.network)
