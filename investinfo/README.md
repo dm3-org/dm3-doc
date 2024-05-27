@@ -44,10 +44,10 @@
 
 ## Company/organization/network info
 
-* dm3.org gGmbH – non-profit company to maintain and coordinate the development of the dm3 protocol, community building, and the dm3 ecosystem.
-* dm3 protocol – open-source and public good of the community.
+* dm3.org gGmbH – a non-profit company that maintains and coordinates the development of the DM3 protocol, community building, and the dm3 ecosystem.
+* DM3 protocol – open-source and public good of the community.
 * The value is in the network (in the future, represented by the token)
-* Through token-based governance, the community will be involved in the development and future decisions.
+* The community will be involved in the development and future decisions through token-based governance.
 
 ## Cooperation, partnerships, and integrations with ecosystems and dApps
 
