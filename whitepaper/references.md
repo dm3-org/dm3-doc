@@ -12,5 +12,7 @@
 
 \[6] [https://www.demandsage.com/blockchain-statistics/](https://www.demandsage.com/blockchain-statistics/) at May 15, 2024
 
+\[7| [https://www.scmagazine.com/news/90-per-cent-of-email-is-spam-claims-new-survey](https://www.scmagazine.com/news/90-per-cent-of-email-is-spam-claims-new-survey) at May 25, 2024
+
 
 
