@@ -1,5 +1,5 @@
 ---
-description: Pre-launch token investment opportunity
+description: Pre-token-launch investment opportunity
 ---
 
 # Investment Information 06/2024
