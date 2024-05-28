@@ -16,3 +16,7 @@
 
 \[8] [https://docs.farcaster.xyz/reference/frames/spec](https://docs.farcaster.xyz/reference/frames/spec), at May 28, 2024
 
+\[9] [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1114](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1114), at May 28, 2024
+
+\[10] [https://corpus.io](https://corpus.io)&#x20;
+
