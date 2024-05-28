@@ -10,14 +10,14 @@
 ## The dm3 Protocol
 
 * [Motivation](the-dm3-protocol/motivation.md)
-* [The Protocol](the-dm3-protocol/the-protocol/README.md)
-  * [Interoperability](the-dm3-protocol/the-protocol/interoperability.md)
-  * [Spam Protection](the-dm3-protocol/the-protocol/spam-protection.md)
-  * [Architecture](the-dm3-protocol/the-protocol/architecture/README.md)
-    * [Protocol extensions](the-dm3-protocol/the-protocol/architecture/protocol-extensions.md)
-    * [Utility extensions](the-dm3-protocol/the-protocol/architecture/utility-extensions.md)
-* [The DM3 Messenger](the-dm3-protocol/the-dm3-messenger/README.md)
-  * [Embedded Widgets](the-dm3-protocol/the-dm3-messenger/embedded-widgets.md)
+* [Protocol](the-dm3-protocol/protocol/README.md)
+  * [Interoperability](the-dm3-protocol/protocol/interoperability.md)
+  * [Spam Protection](the-dm3-protocol/protocol/spam-protection.md)
+  * [Architecture](the-dm3-protocol/protocol/architecture/README.md)
+    * [Protocol extensions](the-dm3-protocol/protocol/architecture/protocol-extensions.md)
+    * [Utility extensions](the-dm3-protocol/protocol/architecture/utility-extensions.md)
+* [Messenger](the-dm3-protocol/messenger/README.md)
+  * [Embedded Widgets](the-dm3-protocol/messenger/embedded-widgets.md)
 
 ## DM3 Token
 
