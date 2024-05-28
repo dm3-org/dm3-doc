@@ -48,4 +48,4 @@ However, local ecosystems can easily support DM3 native without losing interoper
 
 A special capability of Web3 technology is that values can be digitally linked, locked, or transmitted. DM3 uses this to effectively implement various functions, such as spam protection and extended privacy functions.
 
-Therefore, the [DM3 token](../../dm3-token/token.md) can enable functions in the DM3 ecosystem and its governance functions.
+Therefore, the [DM3 token](../../dm3-token/token/) can enable functions in the DM3 ecosystem and its governance functions.
