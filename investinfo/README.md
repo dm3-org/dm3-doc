@@ -1,5 +1,5 @@
 ---
-description: Pre-token-launch investment opportunity
+description: DM3 Pre-token-launch investment opportunity
 ---
 
 # Investment Information 06/2024
