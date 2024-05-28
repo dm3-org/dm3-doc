@@ -14,5 +14,5 @@
 
 \[7| [https://www.scmagazine.com/news/90-per-cent-of-email-is-spam-claims-new-survey](https://www.scmagazine.com/news/90-per-cent-of-email-is-spam-claims-new-survey) at May 25, 2024
 
-
+\[8] [https://docs.farcaster.xyz/reference/frames/spec](https://docs.farcaster.xyz/reference/frames/spec), at May 28, 2024
 
