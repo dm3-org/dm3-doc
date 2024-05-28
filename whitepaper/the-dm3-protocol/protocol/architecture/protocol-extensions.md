@@ -8,8 +8,6 @@ Protocol extensions add additional functions and features to the core protocol (
 
 The following protocol extensions are only outlined to show the modular expandability of the DM3 protocol and its applications.
 
-##
-
 ## **Group chat**
 
 Peer-to-peer messaging is defined in the Dm3 core protocol ([Message Transport Protocol](../)). However, many applications also require a group chat function. Group messaging must fulfill the same security and privacy criteria as peer-to-peer messaging.
