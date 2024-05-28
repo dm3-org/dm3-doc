@@ -1,5 +1,5 @@
 ---
-description: dm3 - secure, decentralized, and interoperable web3 messaging
+description: DM3 - secure, decentralized, and interoperable web3 messaging
 ---
 
 # Introduction
