@@ -4,6 +4,8 @@ description: DM3 - secure, decentralized, and interoperable web3 messaging
 
 # Introduction
 
+<figure><img src=".gitbook/assets/dm3_banner (1).jpg" alt=""><figcaption></figcaption></figure>
+
 _Digital communication has become an integral part of our lives. Besides e-mail, chat and instant messaging applications are among the most widely used applications on the Internet. While e-mail is utilizing a decentralized architecture but is still largely used unencrypted today, messenger services have become established that often allow end-to-end encrypted communication but are usually operated as centralized services by well-known and powerful tech companies. The services are operated as closed systems; there is no interoperability beyond their borders, and even under current regulations, they are not very suitable for giving users real freedom in their choice of application without having to accept restrictions on communication._&#x20;
 
 _Even if the content of end-to-end encrypted communication appears trustworthy (which cannot be definitively guaranteed in closed systems with proprietary code bases, as backdoors cannot be ruled out), the connection metadata in a centralized system is not private. In addition, censorship cannot be ruled out or even prevented in such services._
