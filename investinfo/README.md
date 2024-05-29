@@ -42,7 +42,7 @@ description: DM3 Pre-token-launch investment opportunity
   * Governance
   * Incentive for Standardization
   * Utility function (spam protection, privacy, …)
-* Launch (plan) in Q4/2024
+* Launch (plan) in Q4/2024 / Q1/2025
 
 ***
 
