@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Abstract](README.md)
+* [Introduction](<README (1).md>)
 
 ## Messaging Ecosystems
 
