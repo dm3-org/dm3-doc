@@ -1,8 +1,8 @@
 ---
-description: DM3 Pre-token-launch investment opportunity
+description: DM3 token participation opportunity
 ---
 
-# Investment Information 06/2024
+# Private Token Sale Information 06/2024
 
 ## DM3 is the web3 messaging interoperability protocol.
 
@@ -42,7 +42,7 @@ description: DM3 Pre-token-launch investment opportunity
   * Governance
   * Incentive for Standardization
   * Utility function (spam protection, privacy, …)
-* Launch (plan) in Q4/2024 / Q1/2025
+* Launch is planned in Q1/2025
 
 ***
 
@@ -72,7 +72,7 @@ description: DM3 Pre-token-launch investment opportunity
 
 ### Funding targetQ3/2024
 
-* **€3-5M** \
+* **€4M** \
   (at €80M network valuation at the fully distributed token cap of 100M tokens with the option for tokens at 0.80€ per token)
 
 ### Documents, Resources
