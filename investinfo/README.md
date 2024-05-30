@@ -48,7 +48,7 @@ description: DM3 token participation opportunity
 
 ### Company/organization/network info
 
-* dm3.org gGmbH – a non-profit company that maintains and coordinates the development of the DM3 protocol, community building, and the dm3 ecosystem.
+* dm3.org gGmbH – a non-profit company that maintains and coordinates the development of the DM3 protocol, community building, and the DM3 ecosystem.
 * DM3 protocol – open-source and public good of the community.
 * The value is in the network (in the future, represented by the token)
 * The community will be involved in the development and future decisions through token-based governance.
