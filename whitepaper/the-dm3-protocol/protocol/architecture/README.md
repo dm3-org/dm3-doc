@@ -11,4 +11,4 @@ There are 3 levels:
 3. **Application Layer:** The application layer includes the APIs for integration into other protocols, services, and apps and the embedded UI components for direct integration into other applications.
 4. **Utility Extensions:** Modules that are useful for building user-friendly messaging applications but not directly linked to the core protocol.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>DM3 Architecture - Overview</p></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/architecture_d.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/architecture_light.png" alt=""></picture><figcaption><p>DM3 Architecture - Overview</p></figcaption></figure>
