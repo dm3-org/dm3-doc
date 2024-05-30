@@ -26,7 +26,7 @@ Due to its simple base architecture, **dm3** is intended as a base protocol to b
 
 Required contact information such as public encryption keys and public keys to verify signatures as well as information on used delivery services are managed as text records in ENS (Ethereum Name Service) - the **dm3 profile**. This provides a general registry that can be accessed across applications and protocols. Thus, services using this standard do not have to rely on the technology and availability of one provider, nor does it result in the emergence of various incompatible silos in web3 as in web2.
 
-<figure><picture><source srcset=".gitbook/assets/dm3-architecture.svg" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/dm3-architecture-w.svg" alt=""></picture><figcaption><p>dm3 architecture</p></figcaption></figure>
+<figure><picture><source srcset=".gitbook/assets/architecture_d.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/architecture_light.png" alt=""></picture><figcaption><p>dm3 architecture</p></figcaption></figure>
 
 ## Protocol Extensions
 
