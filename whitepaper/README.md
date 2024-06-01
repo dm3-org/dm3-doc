@@ -1,5 +1,11 @@
+---
+description: DM3 - the web3 messaging interoperability protocol
+---
+
 # Abstract
 
-_The DM3 (Decentralized Messaging for web3 or Direct Message 3) protocol is an end-to-end encrypted peer-to-peer messaging protocol rooted in ENS (Ethereum Name Service). It is **decentralized**, has no single points of failure, has a **lean architecture** with minimum resource requirements, and enables **interoperability** with other messaging solutions while preserving the **self-sovereignty** of its users._&#x20;
+_DM3 is a web3 messaging protocol focused on security, decentralization, privacy, scalability, and interoperability. It is based on a decentralized network of message relay nodes and a standardized registry for communication profiles rooted in ENS (Ethereum Name Service). DM3's interoperability approach enables the connection and integration of different systems and the establishment of an interoperable, connected messaging ecosystem without compromising existing solutions' security, privacy, and UX._&#x20;
 
-_The DM3 protocol uses ENS as a central registry for necessary contact information (like public keys, addresses of delivery services, ...), stored in ENS text records, in combination with a standardized API to build an open ecosystem of message delivery services allowing the send messages from ENS name to ENS name._
+_Building on the lean core protocol, modular extensions provide solutions for many messaging applications, including outstanding spam protection, integrable components to easily integrate messaging functionality into apps, enhanced privacy, and much more._&#x20;
+
+_The DM3 utility token powers token-based functions (such as spam protection, incentivization for privacy functions, etc.) but also serves as a governance token and incentive for standardization._
