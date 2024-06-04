@@ -15,7 +15,7 @@ Billboard messaging is based on the **dm3 Message Transport Protocol (DM3MTP)** 
 
 
 
-<figure><img src="../.gitbook/assets/bmp-architecture.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bmp-architecture.svg" alt=""><figcaption></figcaption></figure>
 
 ## Components
 
@@ -29,7 +29,7 @@ The billboard message extension consists of the following components:
   * **Billboard Management Backend:** This service provides all functions needed to administrate the billboard, like configuration management, creation of billboards, management of ENS subdomains for virtual profiles (including CCIP integration into ENS Subdomain).
 * **Billboard Embedded Widget** The UI component to be embedded in the app.
 
-<figure><img src="../.gitbook/assets/bmp-components.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bmp-components.svg" alt=""><figcaption></figcaption></figure>
 
 ## Moderation of the Conversation
 

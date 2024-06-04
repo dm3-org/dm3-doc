@@ -27,7 +27,7 @@ The component needs some parameters from the parent application:
 
 All communications of a billboard chat are public. This means that anyone can view the communication history (the statements). In the view mode of the UI component, it is associated with a particular billboard and displays the messages retrieved via the Billboard Service API. Interaction with the billboard and statements is not possible in this view.
 
-<figure><img src="../.gitbook/assets/ui_only_viewing.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_only_viewing.svg" alt=""><figcaption></figcaption></figure>
 
 #### Parameters
 
@@ -39,11 +39,11 @@ To join the conversation, the user must identify himself. This is done, for exam
 
 If the parameter `ENS Lookup`is set `true`, the users can proof their wallet address by providing a signature.
 
-<figure><img src="../.gitbook/assets/ui_logged_in_not_validated.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_not_validated.svg" alt=""><figcaption></figcaption></figure>
 
 If the parameter `ENS Lookup` is set `false`, this option is not activated.
 
-<figure><img src="../.gitbook/assets/ui_logged_in_no_enslookup.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_no_enslookup.svg" alt=""><figcaption></figcaption></figure>
 
 #### Parameters
 
@@ -61,7 +61,7 @@ However, to establish this connection, it must be proven that the user is actual
 
 This process is triggered by pressing the button "Proof your wallet address". As soon as the signature and thus the proof has been provided, the corresponding ENS name is now displayed for this address in all viewers.
 
-<figure><img src="../.gitbook/assets/ui_logged_in_validated.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_validated.svg" alt=""><figcaption></figcaption></figure>
 
 #### Sending Statements
 
@@ -69,7 +69,7 @@ Once the user has logged in (e.g. with Sign In With Ethereum), the user's login 
 
 If a minimum waiting time is defined by the billboard service (see properties), the user must wait this time before he can send a message again.
 
-<figure><img src="../.gitbook/assets/ui_logged_in_validated_waiting_after_sending.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_validated_waiting_after_sending.svg" alt=""><figcaption></figcaption></figure>
 
 ### Moderator
 
@@ -79,11 +79,11 @@ In this case user joins the conversation as a moderator. The `Login Signature` m
 
 The moderator view provides the moderator with the option to delete inappropriate statements (via the delete link next to the message).
 
-<figure><img src="../.gitbook/assets/ui_logged_in_moderator_loggedin.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_moderator_loggedin.svg" alt=""><figcaption></figcaption></figure>
 
 If a statement is marked for deletion, the delete link is changed to a recovery link where the moderator has for 15s to cancel the deletion.
 
-<figure><img src="../.gitbook/assets/ui_logged_in_moderator_deleted.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ui_logged_in_moderator_deleted.svg" alt=""><figcaption></figcaption></figure>
 
 Only after this time, the API function is called to delete the message.
 

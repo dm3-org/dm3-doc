@@ -72,7 +72,7 @@ If `time` is empty or undefined, the first page (`k` entries) of the newest mess
 
 The fetching and paging process is visualized in the graph:&#x20;
 
-<figure><img src="../.gitbook/assets/bmp-fetch-messages.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bmp-fetch-messages.svg" alt=""><figcaption></figcaption></figure>
 
 ### Response
 

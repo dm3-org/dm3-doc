@@ -14,7 +14,7 @@ The client is designed to receive the statements only, as it does not send direc
 
 The database of the billboard client contains all messages received from any sender. As moderators can delete/block messages, entries in this database must be markable as deleted. This is done by storing the signature of the moderator who blocked the message. All messages without this blocking information are published.
 
-<figure><img src="../.gitbook/assets/bmp-database.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bmp-database.svg" alt=""><figcaption></figcaption></figure>
 
 ## Billboard Service
 
