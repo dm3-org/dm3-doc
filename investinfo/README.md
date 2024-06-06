@@ -1,7 +1,7 @@
 ---
 description: >-
   Participation opportunity into the DM3 token for the DM3 protocol, an
-  open-source protocol and public good.
+  open-source protocol, public good, and community network.
 ---
 
 # Private Token Sale Information 06/2024
