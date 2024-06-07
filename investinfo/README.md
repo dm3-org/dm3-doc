@@ -92,3 +92,7 @@ description: >-
 * Sources, technical doc:\
   [https://github.com/dm3-org/dm3](https://github.com/dm3-org/dm3)\
   [https://github.com/orgs/dm3-org/repositories](https://github.com/orgs/dm3-org/repositories)
+* DM3 Messenger (Reference Implementation):\
+  [https://dm3.chat](https://dm3.chat)
+* Website\
+  [https://dm3.network](https://dm3.network)
