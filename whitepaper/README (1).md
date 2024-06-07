@@ -48,7 +48,9 @@ Most of these solutions also have in common that they are centralized services. 
 
 Often, a certain messenger has become a quasi-standard in a certain region or user group (e.g., WhatsApp in Europe, WeChat in China, Facebook Messenger in the U.S., ...). This leads to the fact that one must also be registered with this service to communicate with friends and acquaintances since they often use the most common messenger and rarely select the messenger based on its technical performance but rather on the network effect in their circle of acquaintances.
 
-`[PIC DATA-SILOS]`
+
+
+<figure><picture><source srcset=".gitbook/assets/silos_dark.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/silos_light.png" alt=""></picture><figcaption><p>Multiple messengers as closed ecosystems</p></figcaption></figure>
 
 User administration is implemented with username and password (sometimes including 2FA), whereby the telephone number is often used as user identification. However, this also means that the service providers control the user profiles. This means censorship cannot be completely ruled out, connection data can be tricked even if the content is encrypted, and users depend on the service provider.
 

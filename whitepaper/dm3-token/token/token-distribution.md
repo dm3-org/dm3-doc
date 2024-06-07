@@ -2,6 +2,10 @@
 
 The DM3 token is the utility and governance token of the DM3 network and is designed as a community token. This means that a large proportion of the tokens are issued to the community in several ways. The initial number of possible tokens is 100M. Several token pools are set up, although their size only represents the upper limits. Only the tokens that are issued are generated. The distribution takes place in 4 pools:
 
+
+
+<figure><picture><source srcset="../../.gitbook/assets/token_dark (2).png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/token_light.png" alt=""></picture><figcaption><p>Token distribution  (the initial caps for all category pools)</p></figcaption></figure>
+
 ## IP and development
 
 [Corpus.io](https://corpus.io) \[10], a venture/product studio for Web3 applications, realized the initial specification and development of DM3 from the idea to the MVP. With the spin-off of dm3.org, all IP, resources, and rights were transferred. This early support was compensated with options on future DM3 tokens. 20M tokens were reserved for this purpose.

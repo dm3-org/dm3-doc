@@ -8,6 +8,10 @@ Centralized systems generally find it somewhat easier to take action against spa
 
 All widely used approaches to curbing spam are based on blocking messages suspected of being spam or blocking sender addresses. With Web3-based methods, however, it is possible to go further and make sending spam so unattractive for the sender that the motivation to send spam is no longer there. The DM3 protocol uses a Web3-based, multi-level spam defense system that works together to make spam unprofitable for the sender without significantly hindering the desired communication.
 
+
+
+<figure><picture><source srcset="../../.gitbook/assets/spam_dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/spam_light.png" alt=""></picture><figcaption><p>Multi-level web3 spam protection</p></figcaption></figure>
+
 ### **Black- and Whitelists**
 
 **Blacklists** are a common method of filtering messages from proven malicious senders. In terms of Web3-based communication, this means that addresses that have become conspicuous are included in such lists and can then be filtered out. This makes it possible to use public lists of known scammers and spammers for pre-filtering. As all messages in DM3 are signed by the sender, spammers can't use the identity of others to send messages.&#x20;
