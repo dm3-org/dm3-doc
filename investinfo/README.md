@@ -71,14 +71,14 @@ description: >-
 
 * €410k in grants (2023, Q1/2024) from web3 community (Gitcoin, OP, ENS, Gnosis)
 * €500k pre-seed investment (Q3/2023) from Polymorphic.capital \
-  (incl. options for 1.1M Token)
+  (incl. opportunities for 1.1M Token)
 
 ### Funding target
 
 * **Q3/2024**
 * **€4M** \
-  (with the option for tokens at 0.80€ per token)
-* Funding as Donations and options for DM3 Token (SAFT)
+  (with the opportunities for tokens at 0.80€ per token)
+* Funding as Donations and opportunities for DM3 Token (SAFT)
 
 ### Documents, Resources
 
@@ -87,8 +87,7 @@ description: >-
 * Specification, technical doc:\
   [https://specification.dm3.network](https://specification.dm3.network)
 * Pitch Deck:\
-  [5-Min Pitch](https://drive.google.com/open?id=1vIBo3BIJQsjp1NAR3aas7oWeEQyvAAkg)\
-  [Short Pitch](https://drive.google.com/open?id=1vQ5RaUaRkEyy3cOYLh7wAhkdbLiLhciF)
+  [Short Pitch](https://drive.google.com/open?id=1yo-eWYf4tTvF5SKuhzBkqfkHQNjV12F0)
 * Sources, technical doc:\
   [https://github.com/dm3-org/dm3](https://github.com/dm3-org/dm3)\
   [https://github.com/orgs/dm3-org/repositories](https://github.com/orgs/dm3-org/repositories)
