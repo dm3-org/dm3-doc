@@ -4,7 +4,7 @@ description: >-
   open-source protocol, public good, and community messaging network
 ---
 
-# Private Token Sale Information 06/2024
+# Private Token Sale Information 08/2024
 
 ## DM3 is the web3 messaging interoperability protocol.
 
@@ -69,7 +69,7 @@ description: >-
 
 ### Financials
 
-* €410k in grants (2023, Q1/2024) from web3 community (Gitcoin, OP, ENS, Gnosis)
+* €350k in grants (2023, Q1/2024) from web3 community (Gitcoin, OP, ENS, Gnosis, Lukso)
 * €500k pre-seed investment (Q3/2023) from Polymorphic.capital \
   (incl. opportunities for 1.1M Token)
 
