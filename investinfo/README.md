@@ -6,13 +6,22 @@ description: >-
 
 # Private Token Sale Information 08/2024
 
+## TL;DR
+
+* **DM3 Protocol:** A decentralized, open-source protocol for web3 messaging and interoperability.
+* **Token Sale:** Private sale of DM3 ERC20 tokens, with an initial max. cap of 100 million tokens. Launch set for Q1/2025.
+* **Core Features:** End-to-end encryption, decentralization, multi-level privacy, interoperability, and scalability.
+* **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, and others.
+* **Financials:** €4M funding target with tokens priced at €0.80 each. €850k already raised through grants and pre-seed funding.
+* **Organization:** Managed by dm3.org gGmbH, a non-profit with community-driven governance.
+
 ## DM3 is the web3 messaging interoperability protocol.
 
 ### Unique Features
 
 * Messaging interoperability
 * Web3-based Spam-Protection
-* Scalable decentralized message relay node network with ENS-based communication registry
+* Scalable decentralized message relay node network with ENS-based but chain-agnostic  communication registry
 
 ***
 
@@ -54,7 +63,7 @@ description: >-
 * dm3.org gGmbH – a non-profit company that maintains and coordinates the development of the DM3 protocol, community building, and the DM3 ecosystem.
 * DM3 protocol's specifications and source codes are open-source and a public good of the community.
 * The value of DM3 is in the network.
-* The community will be involved in the development, and future decisions through token-based governance.
+* The community will be involved in the development and future decisions through token-based governance.
 
 ### Cooperation, partnerships, and integrations with ecosystems and dApps
 
@@ -69,7 +78,7 @@ description: >-
 
 ### Financials
 
-* €350k in grants (2023, Q1/2024) from web3 community (Gitcoin, OP, ENS, Gnosis, Lukso)
+* €350k in grants (2023, Q1/2024) from the web3 community (Gitcoin, OP, ENS, Gnosis, Lukso)
 * €500k pre-seed investment (Q3/2023) from Polymorphic.capital \
   (incl. opportunities for 1.1M Token)
 
