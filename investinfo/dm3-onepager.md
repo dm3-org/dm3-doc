@@ -97,7 +97,7 @@ For detailed information, see [here](./#unique-features).&#x20;
 
 ## Business/Operation Model
 
-The organization dm3.org gGmbH is a German non-profit limited liability company (“gemeinnützige GmbH”) that coordinates specifications, development, and external contributions. All software and specification documents are published as open-source and public goods.
+The organization dm3.org gGmbH is a German non-profit limited liability company (“gemeinnützige GmbH”) coordinating specifications, development, and external contributions. All software and specification documents are published as open-source and public goods.
 
 The value is in the DM3 network (represented by the DM3 token).
 
@@ -109,7 +109,7 @@ The DM3 Token is the utility token of the DM3 network with the following functio
 
 ### Token economics
 
-The DM3 token economic model centers on using DM3 tokens for network utilities, governance, and incentives for standardization. For instance, to reduce spam, users must deposit DM3 tokens as a promise not to send spam. In the event that spam is detected, these tokens are burned, providing an effective deterrent for malicious activity.
+The DM3 token economic model centers on using DM3 tokens for network utilities, governance, and incentives for standardization. For instance, to reduce spam, users must deposit DM3 tokens as a promise not to send spam. If spam is detected, these tokens are burned, effectively deter malicious activity.
 
 Additionally, DM3 tokens are utilized to purchase network services such as enhanced privacy and delivery options, which will further drive demand as the network continues to expand.&#x20;
 
@@ -121,7 +121,7 @@ Tokens are also distributed to the community and partners to incentivize and dri
 
 The DM3 core protocol and DM3 embedded components are specified and implemented, and a reference implementation and the first infrastructure of the network are published and operational.
 
-In the specification process, we talked to and aligned with many existing Web3 messaging solutions to evaluate the requirements for a common interoperability protocol. The results of these consultations have been incorporated into the protocol specification's architecture and modules.
+In the specification process, we talked to and aligned with many existing Web3 messaging solutions to evaluate the requirements for a standard interoperability protocol. The results of these consultations have been incorporated into the protocol specification's architecture and modules.
 
 In particular, it has also been realized that, in addition to the Ethereum ecosystem, any other L1s or L2s and cloud services can be connected to the standardized communication registry. This makes it possible for the DM3 protocol to be integrated as a native messaging protocol in different ecosystems.&#x20;
 
@@ -131,4 +131,16 @@ To this end, we have entered into partnerships with ENS, Optimism, Arbitrum, Gno
 
 We are currently completing the integration into the Lukso Ecosystem so that DM3 can be used as the standard messenger in this ecosystem, and various dApps can also integrate it.
 
-With CommonGround we started to integrate an exsting messaging solution
+With CommonGround, we started integrating an existing messaging solution into the DM3 network by implementing the DM3 as an interoperability layer.
+
+Hicoiny, a new messenger focused on a community, started building on DM3 as the core protocol for this solution.
+
+## Why DM3?
+
+With the DM3 protocol, we have specified and built the first Web3 messaging protocol based on Web3 values while also enabling interoperability. The core protocol's extremely lean architecture and modularity allow new apps to build on it and existing solutions to become interoperable without compromising their security, privacy, or UX.&#x20;
+
+Furthermore, because DM3 is scalable by design, it is the first available solution suitable for establishing and successfully expanding the connected messaging ecosystem, whereby existing solutions from the Web2 and Web3 worlds can be integrated.
+
+
+
+The systematic and effective use of Web3 technology (e.g. for spam protection) and AI (e.g. for messaging assistants) solves the fundamental problems of existing systems.
