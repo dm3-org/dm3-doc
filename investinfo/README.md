@@ -4,7 +4,7 @@ description: >-
   open-source protocol, public good, and community messaging network
 ---
 
-# Private Token Sale Information 08/2024
+# Private Token Sale Information 09/2024
 
 ## TL;DR
 
@@ -22,6 +22,7 @@ description: >-
 * Messaging interoperability
 * Web3-based Spam-Protection
 * Scalable decentralized message relay node network with ENS-based but chain-agnostic  communication registry
+* AI-based messaging assistant
 
 ***
 
@@ -46,6 +47,10 @@ description: >-
 * Web3 spam protection
   * Key/account-based message transmission
   * Token-based spam slushing.
+* AI messaging assistant
+  * Privacy-preserving AI agent
+  * Support in extracting relevant information from extensive chat histories
+  * Support in the creation of contextualized responses
 
 ### DM3 Token
 

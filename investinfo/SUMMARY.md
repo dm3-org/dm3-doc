@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Private Token Sale Information 08/2024](README.md)
+* [Private Token Sale Information 09/2024](README.md)
+* [DM3 Onepager](dm3-onepager.md)
