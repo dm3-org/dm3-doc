@@ -96,6 +96,7 @@ description: >-
 
 ### Documents, Resources
 
+* [Executive Summary](executive-summary.md)
 * Whitepaper\
   [https://whitepaper.dm3.network](https://whitepaper.dm3.network)
 * Specification, technical doc:\

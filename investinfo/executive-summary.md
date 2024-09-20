@@ -1,4 +1,16 @@
-# DM3 Onepager
+---
+description: >-
+  Solving Fragmentation and Privacy Challenges in Web3 Messaging: The dm3
+  Protocol
+---
+
+# Executive Summary
+
+## TL;DR
+
+**TL;DR:**
+
+The DM3 protocol addresses critical challenges in Web3 messaging, such as fragmentation, lack of interoperability, spam, and privacy concerns. With over 40 Web3 messaging solutions in development, none offer seamless communication across platforms. DM3 introduces a scalable, decentralized messaging network that leverages ENS-based identities, economic incentives for spam protection, and interoperability between existing messaging protocols. The protocol also integrates AI for private messaging assistance and aims to become the core standard for secure, interoperable communication in both Web3 and traditional ecosystems.
 
 ## Problem/Motivation:
 
@@ -6,10 +18,7 @@ Enhancing global communication has been one of the Internet's greatest successes
 
 ### The current landscape of messaging solutions
 
-| **Web1 (Email)**                                                                                                                                         | **Web2 (Messengers)**                                                                                                                                                    | **Web2 (Social Networks)**                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>+ Interoperable</p><p>+ Standardized</p><p>+ Decentralized</p>                                                                                        | <p>+ UX<br>+ Convenient <br>+ Encryption</p>                                                                                                                             | <p>+ Easy discovery<br>+ Convenient</p>                                                                                                                                                               |
-| <p>- Obsolete</p><p>- No discovery</p><p>- Impersonation</p><p>- Vendor lock-in</p><p>- Spam</p><p>- Lack of privacy</p><p>- No Encryption</p><p>...</p> | <p>- Fragmentation</p><p>- Closed ecosystems</p><p>- No Interoperability</p><p>- Vendor lock-in</p><p>- Spam</p><p>- Lack of privacy</p><p>- Deplatforming</p><p>...</p> | <p>- Fragmentation</p><p>- Vendor lock-in</p><p>- Closed Ecosystems</p><p>- No interoperability</p><p>- Spam</p><p>- Lack of privacy</p><p>- Deplatforming</p><p>- No private messaging</p><p>...</p> |
+<table data-header-hidden><thead><tr><th></th><th width="295"></th><th></th></tr></thead><tbody><tr><td><strong>Web1 (Email)</strong></td><td><strong>Web2 (Messengers)</strong></td><td><strong>Web2 (Social Networks)</strong></td></tr><tr><td><p>+ Interoperable</p><p>+ Standardized</p><p>+ Decentralized</p></td><td>+ UX<br>+ Convenient <br>+ Encryption</td><td>+ Easy discovery<br>+ Convenient</td></tr><tr><td><p>- Obsolete</p><p>- No discovery</p><p>- Impersonation</p><p>- Vendor lock-in</p><p>- Spam</p><p>- Lack of privacy</p><p>- Lack of encryption</p><p>...</p></td><td><p>- Fragmentation</p><p>- Closed ecosystems</p><p>- No Interoperability</p><p>- Vendor lock-in</p><p>- Spam</p><p>- Lack of privacy</p><p>- Deplatforming</p><p>...</p></td><td><p>- Fragmentation</p><p>- Vendor lock-in</p><p>- Closed Ecosystems</p><p>- No interoperability</p><p>- Spam</p><p>- Lack of privacy</p><p>- Deplatforming</p><p>- No private messaging</p><p>...</p></td></tr></tbody></table>
 
 Attempts to build Web3 native messaging platforms/protocols have resolved some of these issues, e.g., immutable identities by wallets or privacy (Waku, XMTP, ...), albeit there are still fundamental challenges:
 
@@ -31,15 +40,15 @@ Attempts to build Web3 native messaging platforms/protocols have resolved some o
 
 **DM3** attempts to solve all these problems by:
 
-1. **Creating a public registry for communication profiles** based on ENS and integrating any L2, other blockchains, and cloud-based solutions that enable secure and private communication.
+1. **Creating a public registry for communication profiles** based on ENS and integrating any L2, other L1s, and cloud-based solutions that enable secure and private communication.
 2. **Building a decentralized network of Message relay nodes** that is scalable by design and enables self-sovereign communication.
-3. **Introducing** a lean, open, and easy-to-integrate **interoperability solution** for Web1/2/3 messaging protocols and solutions
+3. **Introducing** a lean, open, and easy-to-integrate **interoperability solution** for Web1/2/3 messaging protocols and solutions, including a comprehensive SDK.
 4. Leveraging economic incentives to introduce Web3 native **spam protection.**
 5. Providing **AI-based** but privacy-preserving **messaging assistance**. &#x20;
 
-We are not creating yet another messenger but rather a core protocol (think https) that allows existing messaging protocols to interoperate efficiently and new messaging solutions to be built directly on top of it. Also, dm3 enables solutions like wallets, web3 games, marketplaces, etc., to easily integrate secure and interoperable messaging.
+We are not creating yet another messenger but rather a core protocol (think of the Internet's core protocol, TCP/IP) that allows existing messaging protocols to interoperate efficiently and new messaging solutions to be built directly on top of it. Also, dm3 enables solutions like wallets, Web3 games, marketplaces, etc., to easily integrate secure and interoperable messaging.
 
-## Why now?
+## But why now?
 
 ### Web2 momentum:
 
@@ -109,7 +118,7 @@ The DM3 Token is the utility token of the DM3 network with the following functio
 
 ### Token economics
 
-The DM3 token economic model centers on using DM3 tokens for network utilities, governance, and incentives for standardization. For instance, to reduce spam, users must deposit DM3 tokens as a promise not to send spam. If spam is detected, these tokens are burned, effectively deter malicious activity.
+The DM3 token economic model centers on using DM3 tokens for network utilities, governance, and incentives for standardization. For instance, to reduce spam, users must deposit DM3 tokens as a promise not to send spam. If spam is detected, these tokens are burned, effectively deterring malicious activity.
 
 Additionally, DM3 tokens are utilized to purchase network services such as enhanced privacy and delivery options, which will further drive demand as the network continues to expand.&#x20;
 
@@ -119,7 +128,7 @@ Tokens are also distributed to the community and partners to incentivize and dri
 
 ## Traction
 
-The DM3 core protocol and DM3 embedded components are specified and implemented, and a reference implementation and the first infrastructure of the network are published and operational.
+The DM3 core protocol and DM3 embedded components are specified and implemented, and a reference implementation and the first network infrastructure are published and operational.
 
 In the specification process, we talked to and aligned with many existing Web3 messaging solutions to evaluate the requirements for a standard interoperability protocol. The results of these consultations have been incorporated into the protocol specification's architecture and modules.
 
@@ -129,11 +138,11 @@ To this end, we have entered into partnerships with ENS, Optimism, Arbitrum, Gno
 
 ### Examples:
 
-We are currently completing the integration into the Lukso Ecosystem so that DM3 can be used as the standard messenger in this ecosystem, and various dApps can also integrate it.
+We are currently completing the integration into the Lukso Ecosystem so that DM3 can be used as the standard messenger and messaging protocol in this ecosystem, and various dApps can also integrate it.
 
-With CommonGround, we started integrating an existing messaging solution into the DM3 network by implementing the DM3 as an interoperability layer.
+With CommonGround, we started integrating an existing messaging solution into the DM3 network by implementing DM3 as the interoperability layer.
 
-Hicoiny, a new messenger focused on a community, started building on DM3 as the core protocol for this solution.
+Hicoiny, a new messenger focused on a token community, started building on DM3 as the core protocol for this solution.
 
 ## Why DM3?
 
@@ -141,6 +150,4 @@ With the DM3 protocol, we have specified and built the first Web3 messaging prot
 
 Furthermore, because DM3 is scalable by design, it is the first available solution suitable for establishing and successfully expanding the connected messaging ecosystem, whereby existing solutions from the Web2 and Web3 worlds can be integrated.
 
-
-
-The systematic and effective use of Web3 technology (e.g. for spam protection) and AI (e.g. for messaging assistants) solves the fundamental problems of existing systems.
+The systematic and practical use of Web3 technology (e.g., for the communication profile registry, spam protection, ...) and AI (e.g., for private messaging assistants) solves the fundamental problems of existing systems.
