@@ -22,7 +22,7 @@ Attempts to build Web3 native messaging platforms/protocols have resolved some o
 
 * **Fragmentation/Lack of interoperability**—\
   More> than 42 Web3 messaging solutions are being developed (Waku/Status, XMTP, Wallet Connect, MailChain, Ethermail, Blockscan Chat, WalletChat, …). Most solutions are still closed ecosystems without interoperability with other solutions.\
-  Many of those have raised significant funds (status: $105M\*, xmtp: $25M, Ethermail: $7M, MailChain $4.6M,  WalletConnect $25M\*,... source: [https://icodrops.com](https://icodrops.com), \* messaging is only part of the business).
+  Many of those have raised significant funds (status: $105M\*, xmtp: $25M, Ethermail: $7M, MailChain $4.6M,  WalletConnect $25M\*,..., \* messaging is only part of the business).
 *   **Low start problem**—
 
     A small group of users, still no network effect, and no one has yet created enough new functionality to encourage users to migrate their communications to new channels).\
