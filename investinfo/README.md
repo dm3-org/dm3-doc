@@ -11,7 +11,7 @@ description: >-
 * **DM3 Protocol:** A decentralized, open-source protocol for web3 messaging and interoperability.
 * **Token Sale:** Private sale of DM3 ERC20 tokens, with an initial max. cap of 100 million tokens. Launch set for Q1/2025.
 * **Core Features:** End-to-end encryption, decentralization, multi-level privacy, interoperability, and scalability.
-* **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, and others.
+* **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, Arbitrum, and others.
 * **Financials:** €4M funding target with tokens priced at €0.80 each. €850k already raised through grants and pre-seed funding.
 * **Organization:** Managed by dm3.org gGmbH, a non-profit with community-driven governance.
 
@@ -47,7 +47,7 @@ description: >-
 * Web3 spam protection
   * Key/account-based message transmission
   * Token-based spam slushing.
-* AI messaging assistant
+* AI messaging assistants
   * Privacy-preserving AI agent
   * Support in extracting relevant information from extensive chat histories
   * Support in the creation of contextualized responses
@@ -77,13 +77,14 @@ description: >-
 * Optimism
 * Gnosis
 * Lukso
+* Arbitrum
 * MASQ
 * CommonGround
 * Polymorphic.capital
 
 ### Financials
 
-* €350k in grants (2023, Q1/2024) from the web3 community (Gitcoin, OP, ENS, Gnosis, Lukso)
+* €350k in grants (2023, Q1/2024) from the web3 community (Gitcoin, OP, ENS, Gnosis, Lukso, Arbitrum)
 * €500k pre-seed investment (Q3/2023) from Polymorphic.capital \
   (incl. opportunities for 1.1M Token)
 
@@ -92,7 +93,7 @@ description: >-
 * **Q3/2024**
 * **€4M** \
   (with the opportunities for tokens at 0.80€ per token)
-* Funding as Donations and opportunities for DM3 Token (SAFT)
+* Funding as Donations and opportunities for future DM3 Token (SAFT)
 
 ### Documents, Resources
 
