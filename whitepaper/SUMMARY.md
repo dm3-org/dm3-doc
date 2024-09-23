@@ -14,6 +14,7 @@
 * [Protocol](the-dm3-protocol/protocol/README.md)
   * [Interoperability](the-dm3-protocol/protocol/interoperability.md)
   * [Spam Protection](the-dm3-protocol/protocol/spam-protection.md)
+  * [AI Messaging Assistant](the-dm3-protocol/protocol/ai-messaging-assistant.md)
   * [Architecture](the-dm3-protocol/protocol/architecture/README.md)
     * [Protocol extensions](the-dm3-protocol/protocol/architecture/protocol-extensions.md)
     * [Utility extensions](the-dm3-protocol/protocol/architecture/utility-extensions.md)
