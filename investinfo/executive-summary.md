@@ -66,7 +66,7 @@ We are not creating yet another messenger but rather a core protocol (think of t
 * **The emergence of Web3 Social Platforms**—\
   Web3 social platforms like Farcaster are gaining traction, but interoperability challenges persist. For example, there’s currently no seamless way to send messages from Warpcast to Lens, highlighting the urgent need for interoperable messaging solutions.
 * **Convergence of Wallets and Messengers**—\
-  The integration of wallets with messaging apps (e.g., Telegram + TON Wallet, Coinbase Wallet + XMTP) is becoming more common. Technologies like Telegram Mini Apps and Farcaster Frames are turning the wallet-messenger combo into the primary gateway for new users entering the Web3 world. However, this trend also risks breaking the composability that is central to Web3, further emphasizing the need for a unified, interoperable messaging protocol.
+  Integrating wallets with messaging apps (e.g., Telegram + TON Wallet, Coinbase Wallet + XMTP) is becoming more common. Technologies like Telegram Mini Apps and Farcaster Frames are turning the wallet-messenger combo into the primary gateway for new users entering the Web3 world. However, this trend also risks breaking the composability that is central to Web3, further emphasizing the need for a unified, interoperable messaging protocol.
 
 ## Solution
 
@@ -76,17 +76,51 @@ For detailed information, see [here](./#unique-features).&#x20;
 ## How the future of messaging looks like:
 
 * Directly reach a specific person by his/her ENS/wallet/social network handle/name. They will receive a message in the app that it is convenient for them. Attract their attention by staking tokens.
-* Single inbox: Get all your emails/messages in a single application. Use the client you prefer, whether it is a simple mobile application or a complex CRM system. Connect any local messaging (like in-app messaging of a particular app) to your inbox and control all your relevant conversations in one place.
+* Single inbox: Get all your emails/messages in a single application. Use the client you prefer, whether a simple mobile application or a complex CRM system. Connect any local messaging (like in-app messaging of a particular app) to your inbox and control all your relevant conversations in one place.
 * You can use all the functionality of Web3 inside messages via frames: send money, place bets, vote, etc.
 * Set the level of message encryption and privacy as you need.
 * Be 100% sure who sent you the message. No impersonated senders can trick you into scams.
-* Let spammers pay and lose money if they send spam to your inbox. By increasing the sender's anti-spam deposit requirement, you keep your inbox free of spam.
-* You can use AI assistance within your messenger without the risk of losing privacy or sharing confidential information outside your own inbox.
-* Polymorphic use-case: Send a message to an organization on its website by simply connecting your wallet. Get a response wherever it is convenient for you. Link this conversation to your inbox if you want.
-* Lukso use-case: Send messages to other profiles seamlessly within your profile or any dApp in that ecosystem.
-* Gnosis-Safe use-case: Send messages to other signers in the multisig-wallet to coordinate multi-signature transactions without the need to use another application.
-* Web3-game use-case: Create a messaging group within the game to synchronize with other players.
-* Marketplace use-case: Send a confidential message directly to the provider of an NFT in the marketplace.
+* Let spammers pay and lose money if they send spam to your inbox. Increasing the sender's anti-spam deposit requirement keeps your inbox free of spam.
+* You can use AI assistance within your messenger without the risk of losing privacy or sharing confidential information outside your inbox.
+
+## Use Cases
+
+The use cases describe various possible applications of DM3 technology and the DM3 network. The listed examples are applications that have already been analyzed and discussed or are already in the planning or implementation stages.
+
+* **Embedded Messaging use-case:**\
+  By simply connecting your wallet, you can send a message to an organization on its website or from user to user in a dApp. You can get a response wherever it is convenient for you. You can also link this conversation to your inbox. These chats can be direct conversations with persons, support chats, or similar. This can be an embedded messaging component or a simple button opening a messenger popup.\
+  _Examples:_&#x20;
+  * _polymorphic.capital_ website with direct messages to partners
+  * Embedded messenger in _rethinkable.xyz_ (social media app)
+* **Core-Protocol use-case:**\
+  An innovative new messenger solution uses the DM3 protocol as its core. Users of this messenger are connected with any other DM3-interoperable messenger and can send messages to users of other messengers while using a new messenger.\
+  _Examples:_
+  * The _Hicoiny_ messenger utilizes DM3 as the core protocol
+* **Interoperability use-case**\
+  An existing messenger adds DM3 interoperability to join the DM3 messaging network. Users of this messenger can send and receive messages to and from any other messenger. Messaging bridges enable message exchange for other messengers. \
+  _Examples:_
+  * _Wallet Connect_ web3 inbox can send and receive DM3 messages.
+  * _XMTP_ inbox can send and receive DM3 messages.
+  * Any DM3 interoperable messenger can send messages to any _Telegram_ user.
+  * Any DM3 interoperable messenger can send messages to any _WhatsApp_ user.
+* **Ecosystem use-case:**\
+  Send messages to other profiles seamlessly within your profile or any dApp in that ecosystem. With DM3 as the messaging standard in this ecosystem, users of dApps in this exosystem can communicate.\
+  _Examples:_
+  * _Lukso/universal profiles_ use DM3 as the native messaging protocol
+  * _Gnosis name service GENOME_ is natively supported by DM3
+  * _BNB_ uses DM3 as a native messaging protocol for web3 games of this ecosystem
+  * _ENS_ provides direct messaging support for ENS names that publish communication profile
+  * _SpaceID_ provides direct messaging support for ENS names that publish communication profile
+* **Wallet-to-Wallet use-case:**\
+  Send messages to other signers in the multisig-wallet to coordinate multi-signature transactions without using another application. \
+  _Examples:_
+  * _Gnosis Safe_ embedded messenger is fully integrated into the signing process.
+* **Web3-game use-case:**\
+  Create a messaging group within the game to synchronize with other players.
+* **Marketplace use-case:**\
+  Send a confidential message directly to the provider of an NFT in the marketplace.
+* **SDK use-case:**\
+  Messaging solutions or any other applications are built using the DM3 SDK.&#x20;
 
 ## Go-to-market
 
@@ -99,10 +133,13 @@ For detailed information, see [here](./#unique-features).&#x20;
   * Every Web3 name (Web3 name services like ENS and those in L2s and other chains) has a communication profile and can converse with other users, regardless of their messenger.&#x20;
   * Existing Web3 messaging protocols become DM3 interoperable and join the connected messaging ecosystem.
   * New Web3 messaging solutions are built on top of DM3 as the core protocol, making them interoperable in the connected messaging ecosystem from day one.
+  * The DM3 SDK is used for messaging solutions
 * **Stage 3**: Beyond Web3 natives
   * Any commonly used messenger is connected to the DM3 messaging network with a messaging bridge or gateway. Web3 users can send messages to users of any messenger.&#x20;
   * Existing web3 messaging protocols become DM3 interoperable and join the connected messaging ecosystem.
   * The DM3 core protocol becomes an interoperability standard for messaging.
+* **Stage 4:** Extended Function
+  * AI Messaging Assistant becomes adaption to increase UX and address regulatory requirements for messaging while preserving privacy&#x20;
 
 ## Business/Operation Model
 
@@ -120,7 +157,7 @@ The DM3 Token is the utility token of the DM3 network with the following functio
 
 The DM3 token economic model centers on using DM3 tokens for network utilities, governance, and incentives for standardization. For instance, to reduce spam, users must deposit DM3 tokens as a promise not to send spam. If spam is detected, these tokens are burned, effectively deterring malicious activity.
 
-Additionally, DM3 tokens are utilized to purchase network services such as enhanced privacy and delivery options, which will further drive demand as the network continues to expand.&#x20;
+Additionally, DM3 tokens are utilized to purchase network services such as enhanced privacy and delivery options, further driving demand as the network expands.&#x20;
 
 As users increase, so does the demand for anti-spam deposits and network services, ensuring the tokens' continued demand. Regarding governance, DM3 token holders or their delegates participate in protocol decisions, voting on upgrades, and resource allocation. This decentralized governance ensures that users influence the protocol's evolution.
 
@@ -130,19 +167,56 @@ Tokens are also distributed to the community and partners to incentivize and dri
 
 The DM3 core protocol and DM3 embedded components are specified and implemented, and a reference implementation and the first network infrastructure are published and operational.
 
-In the specification process, we talked to and aligned with many existing Web3 messaging solutions to evaluate the requirements for a standard interoperability protocol. The results of these consultations have been incorporated into the protocol specification's architecture and modules.
+In the specification process, we talked to and aligned with many existing Web3 messaging solutions to evaluate the requirements for a standard interoperability protocol. The results of these consultations have been incorporated into the protocol specification's architecture and modules.\
+**The specification of the DM3 core protocol (Message Transport Protocol) and the DM3 core architecture align with the requirements needed to build the interoperability layer.**
 
-In particular, it has also been realized that, in addition to the Ethereum ecosystem, any other L1s or L2s and cloud services can be connected to the standardized communication registry. This makes it possible for the DM3 protocol to be integrated as a native messaging protocol in different ecosystems.&#x20;
+In particular, it has also been realized that, besides the Ethereum ecosystem, any other L1s or L2s and cloud services can be connected to the standardized communication registry. This allows the DM3 protocol to be integrated as a native messaging protocol in different ecosystems. \
+**To enable DM3 to support different ecosystems, we specified and developed the cross-chain communication registry with links to cloud services, L2s, and L1s.**
 
-To this end, we have entered into partnerships with ENS, Optimism, Arbitrum, Gnosis, Lukso, and SpaceID.&#x20;
+We also aligned requirements with many dApps (wallets, marketplaces, Web3 games, Web3 social media, etc.) for embedded messaging.\
+DM3 embedded components were developed and added to the first applications as part of the SDK development. In addition to these embedded use cases, applications started to be built entirely on top of DM3.&#x20;
 
-### Examples:
+### Integrations:
 
-We are currently completing the integration into the Lukso Ecosystem so that DM3 can be used as the standard messenger and messaging protocol in this ecosystem, and various dApps can also integrate it.
-
-With CommonGround, we started integrating an existing messaging solution into the DM3 network by implementing DM3 as the interoperability layer.
-
-Hicoiny, a new messenger focused on a token community, started building on DM3 as the core protocol for this solution.
+* **The DM3 reference implementation**\
+  The reference implementation is based on the embedded components. It is available as a reference instance. This integration is live.
+* **Lukso/Universal Profiles**—\
+  We are currently completing the integration into the Lukso Ecosystem so that DM3 can be directly integrated into Universal Profiles and used as the standard messenger and messaging protocol in this ecosystem. Various dApps can also incorporate it.
+* **CommonGround**—\
+  With CommonGround, we started integrating an existing messaging and web3 community solution into the DM3 network by implementing DM3 as the interoperability layer for direct messages. The integration is in progress.
+* **Hicoiny Messenger**—\
+  Hicoiny, a new messenger focused on a token-sharing community, is in the process of developing DM3 as the core protocol for this solution.
+* **MASQ Network**—\
+  The MASQ network is a privacy network utilizing a mesh VPN. DM3 is supported as an internal messenger.
+* **Rethinkable.xyz**—\
+  Rethinkable, the LinkedIn-like social network for Web3, will use DM3 as an internal messenger to enable users to communicate directly. This integration is in the planning phase.
+* **ENS (Ethereum Name Service)**—\
+  DM3's communication profiles are published in ENS (optional records "network.dm3.profile"). Other data sources, such as could services, L2s, and L1s, are linked to ENS subdomains. \
+  ENS integrated the direct link to DM3 to send messages directly to the identity owner into their POAP app (linked to commonly used ENS NFC identity cards). This integration is finished.\
+  Also, the DM3 embedded messenger is planned to be included in the ENS app, allowing name owners with a communication profile to be contacted directly via DM3. This integration is in planning right now.
+* **GENOME (Gnosis Name Service)**—\
+  DM3's communication profiles can be published in GENOME (Gnosis, Arbitrum, BNB, ... in records "network.dm3.profile"). The data is linked to ENS to the subdomain gnosis.eth. The DM3 messenger (DM3 embedded) can be used natively in the Gnosis ecosystem.
+* **SpaceID (Name service provider for several ecosystems)**—\
+  DM3's communication profiles can be published in several SpaceID-provided ecosystems (Gnosis, Arbitrum, BNB, ... in records "network.dm3.profile"). The data is linked to ENS to a subdomain. The DM3 embedded messenger is planned to be included in the SpaceID app, allowing name owners with a communication profile to be contacted directly via DM3. This integration is in the planning or concept phase right now.
+* **Optimism**—\
+  Optimism is connected to be the Registry Location. Users can store their communication profiles in Optimism. DM3 can be used natively as a messaging protocol on Optimism-based apps. This integration is implemented.
+* **Arbitrum**—\
+  Arbitrum is connected to be the Registry Location. Users can store their communication profiles in Arbitrum. DM3 can be used natively as a messaging protocol on Arbitrum-based apps. This integration is in progress.
+* **Base**—\
+  Base is connected to be the Registry Location. Users can store their communication profiles in Base. DM3 can be used natively as a messaging protocol on Base-based apps. This integration is in planning.
+* **Streameth (EthPrague, DevConnect)**—\
+  DM3 (with the Billboard Chat Extension) is integrated as an official conference live chat for the conference live streaming portal. It was used at EthPrague 2023 and several Events at DevConnect 2023 (Istanbul). This integration was live (while
+* &#x20;restricted to the conference).
+* **Mithraeum**—\
+  Mithraeum is a web3 game. DM3 is planned to be used as an embedded messenger (in-game messenger). This integration is in planning.
+* **Gnosis Safe**—\
+  DM3 is planned to be integrated as a wallet-to-wallet chat in Gnosis Safe. An MVP implementation is already implemented, and the integration is in the concept phase.
+* **Niftyfair**—\
+  Niftyfair is an NFT marketplace. DM3 is intended to become the internal marketplace messenger providing direct communication between buyers and sellers. This integration is in planning.
+* **Polymorphic.capital Website**—\
+  DM3 is used to direct message partners and associates. This integration is in progress.
+* **POAP App**—\
+  The POAP (Proof-of-Attendance-Protocol) app offers information to the POAP issuer. It is intended to add the direct messaging contact to the issuer so that holders can directly communicate with the issuer. This integration is in concept.
 
 ## Why DM3?
 
