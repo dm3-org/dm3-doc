@@ -8,11 +8,9 @@ description: >-
 
 ## TL;DR
 
-**TL;DR:**
-
 The DM3 protocol addresses critical challenges in Web3 messaging, such as fragmentation, lack of interoperability, spam, and privacy concerns. With over 40 Web3 messaging solutions in development, none offer seamless communication across platforms. DM3 introduces a scalable, decentralized messaging network that leverages ENS-based identities, economic incentives for spam protection, and interoperability between existing messaging protocols. The protocol also integrates AI for private messaging assistance and aims to become the core standard for secure, interoperable communication in both Web3 and traditional ecosystems.
 
-## Problem/Motivation:
+## Problem/Motivation
 
 Enhancing global communication has been one of the Internet's greatest successes, yet significant challenges remain. Modern messaging solutions are plagued by fragmentation, lack of universal standards, vendor lock-in, spam, impersonation, and inadequate privacy protection. These issues are becoming more apparent and pressing as digital communication evolves. We believe that by applying the core principles and decentralized architecture of Web3 to the messaging domain, we can address these challenges and unlock a new era of secure, seamless, and interoperable communications.
 
@@ -139,7 +137,7 @@ The use cases describe various possible applications of DM3 technology and the D
   * Existing web3 messaging protocols become DM3 interoperable and join the connected messaging ecosystem.
   * The DM3 core protocol becomes an interoperability standard for messaging.
 * **Stage 4:** Extended Function
-  * AI Messaging Assistant becomes adaption to increase UX and address regulatory requirements for messaging while preserving privacy&#x20;
+  * AI Messaging Assistants have become an adaption to increase UX and address regulatory requirements for messaging while preserving privacy. Other protocol extensions will be avaialable as well.&#x20;
 
 ## Business/Operation Model
 
