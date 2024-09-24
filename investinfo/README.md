@@ -9,10 +9,10 @@ description: >-
 ## TL;DR
 
 * **DM3 Protocol:** A decentralized, open-source protocol for web3 messaging and interoperability.
-* **Token Sale:** Private sale of DM3 ERC20 tokens, with an initial max. cap of 100 million tokens. Launch set for Q1/2025.
+* **Token Sale:** Private sale of DM3 ERC20 tokens, with an initial max cap of 100 million tokens. Launch set for Q1/2025.
 * **Core Features:** End-to-end encryption, decentralization, multi-level privacy, interoperability, and scalability.
-* **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, Arbitrum, and others.
-* **Financials:** €4M funding target with tokens priced at €0.80 each. €850k already raised through grants and pre-seed funding.
+* **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, Arbitrum, etc.
+* **Financials:** €4M funding target with tokens priced at €0.80 each. In the former fundraising round (pre-seed), €850k was raised through grants and pre-seed funding.
 * **Organization:** Managed by dm3.org gGmbH, a non-profit with community-driven governance.
 
 ## DM3 is the web3 messaging interoperability protocol.
