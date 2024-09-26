@@ -42,9 +42,9 @@ LLMs, like GPT-4, use deep learning and neural networks—specifically, the Tran
 * **Cloud-Hosted (Private, Closed Models)**: Companies can host LLMs with strict access controls in private clouds. Data remains within a closed environment, reducing exposure. However, privacy concerns persist since data leaves the user’s local device.
 * **Local Models**: LLMs run on user devices without sending data to external servers, ensuring maximum privacy. This method requires sufficient local computing power but prevents data leakage, aligning with DM3’s security and privacy objectives.
 
-DM3’s local LLMs based on provide powerful AI functions by processing data on-device while maintaining user privacy and control. Cloud-based private models could be possible for web applications that are incapable of running local models.
+DM3’s local LLMs are based on providing powerful AI functions by processing data on-device while maintaining user privacy and control. Cloud-based private models could be possible for web applications that are incapable of running local models.
 
-### AI Conversation Summaries Assistant
+### AI Conversation Assistant
 
 The AI-powered Conversation Summarization module leverages local LLMs to provide concise, real-time overviews of long or complex messaging conversations. By analyzing message flow and extracting key points, the module helps users quickly grasp the gist of discussions, improving decision-making and collaboration. Research shows that summaries significantly reduce cognitive load, especially in long conversations, making it easier for users to stay organized and focus on important content. In addition, summaries help users navigate the conversation history, enabling them to retrieve relevant information in future interactions efficiently.
 
@@ -59,7 +59,7 @@ The AI-powered Conversation Summarization module leverages local LLMs to provide
 * **Reduced Cognitive Load:**\
   By processing only key details, users avoid information overload.&#x20;
 
-In DM3, this module ensures privacy by using local models to prevent sensitive data from being exposed to external servers.
+This module ensures privacy in DM3 by using local models to prevent sensitive data from being exposed to external servers.
 
 ### AI Response Assistant
 
