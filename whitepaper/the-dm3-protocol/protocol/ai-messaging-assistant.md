@@ -16,15 +16,35 @@ The deployment of AI streamlines communication and enhances user experience by m
 
 #### Risks
 
-* **Privacy Concerns**: AI operating on public models can expose sensitive information. DM3 mitigates this by using private, local LLMs.
+* **Privacy Concerns**: AI operating on public models can expose sensitive information. DM3 mitigates this by using private, local LLMs or cloud-hosted private LLMs.
 * **Accuracy**: There is a risk of false positives when flagging content, requiring ongoing model updates and user feedback loops.
 * **User Frustration**: Incorrect suggestions or summaries could affect user experience, making it necessary to refine AI functions continuously.
 
 ## Models and Architecture
 
-Large Language Models (LLMs) are technically optimized to analyze, process, and generate human-readable text based on complex patterns in large data sets. This makes them particularly suitable for summarizing conversations and generating context-specific response suggestions within messaging systems. To ensure privacy, DM3 utilizes only **local LLMs** that operate directly on the user's device. This ensures that sensitive information remains securely on the device and is not exposed to external servers, eliminating the risks associated with public AI models while providing advanced AI capabilities for decentralized communications.
+LLMs, like GPT-4, use deep learning and neural networks—specifically, the Transformer architecture. They learn from large datasets, capturing language patterns, grammar, facts, and context.
 
-### AI Conversation Summaries
+1. **Training**: During training, LLMs process massive text corpora. They use **tokens**, smaller units of text (e.g., words or subwords), to understand language. The model learns to predict the next token in a sequence, using self-attention mechanisms to focus on relevant parts of input data. This allows the model to grasp context, semantics, and underlying meaning.
+2. **Neural Network Architecture**: Transformers consist of multiple layers, each containing an **encoder** (which processes input) and a **decoder** (which generates output). Self-attention mechanisms enable the model to weigh the importance of each word in a sequence, learning relationships regardless of word order.
+3. **Fine-Tuning:** After pre-training, LLMs are fine-tuned on specific tasks or domains, improving their performance in particular use cases (e.g., summarizing conversations and generating responses).
+
+### Types of LLMs: Commercial vs. Open Source
+
+**Commercial Models**: Developed and maintained by companies like OpenAI (ChatGPT), Anthropic (Claude), and Cohere, these models are usually accessed through cloud services. They often provide high performance and support, but usage involves data privacy concerns and licensing fees.
+
+**Open Source Models**: Open-source LLMs, like Meta’s LLaMA or EleutherAI’s GPT-Neo, are free to use and modify, offering flexibility. They can be fine-tuned for specific applications, allowing deployment on local devices to preserve privacy.
+
+**Condensed Models for Local Use**: Running full-scale LLMs locally can be resource-intensive. Condensed models, like **distilled** versions (e.g., DistilBERT) or **quantized models**, reduce computational requirements while retaining most of the original model's capabilities. These models are optimized for personal devices, making local AI processing more practical and aligning with privacy-focused applications like DM3.
+
+### Usage Models of LLMs
+
+* **As a Service (Public Models)**: Models like ChatGPT run on remote servers and process user input in the cloud. Since data is transmitted and processed externally, this exposes conversations to potential privacy risks.
+* **Cloud-Hosted (Private, Closed Models)**: Companies can host LLMs with strict access controls in private clouds. Data remains within a closed environment, reducing exposure. However, privacy concerns persist since data leaves the user’s local device.
+* **Local Models**: LLMs run on user devices without sending data to external servers, ensuring maximum privacy. This method requires sufficient local computing power but prevents data leakage, aligning with DM3’s security and privacy objectives.
+
+DM3’s local LLMs based on provide powerful AI functions by processing data on-device while maintaining user privacy and control. Cloud-based private models could be possible for web applications that are incapable of running local models.
+
+### AI Conversation Summaries Assistant
 
 The AI-powered Conversation Summarization module leverages local LLMs to provide concise, real-time overviews of long or complex messaging conversations. By analyzing message flow and extracting key points, the module helps users quickly grasp the gist of discussions, improving decision-making and collaboration. Research shows that summaries significantly reduce cognitive load, especially in long conversations, making it easier for users to stay organized and focus on important content. In addition, summaries help users navigate the conversation history, enabling them to retrieve relevant information in future interactions efficiently.
 
@@ -60,7 +80,7 @@ An AI content assistant enhances messaging interactions by analyzing conversatio
 #### **Content Assistance:**
 
 * **Topic Highlighting**: The content assistant identifies vital points in ongoing conversations, helping users focus on important aspects of complex discussions. This reduces information overload and aids in navigating long conversations more efficiently.
-* **Content Filtering**: The assistant can flag irrelevant or distracting messages, improving the quality of communication by filtering out noise and marks spam.
+* **Content Filtering**: The assistant can flag irrelevant or distracting messages, improving the quality of communication by filtering out noise and marking spam.
 
 #### **Regulatory Support:**
 
