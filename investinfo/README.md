@@ -4,7 +4,7 @@ description: >-
   open-source protocol, public good, and community messaging network
 ---
 
-# Private Token Sale Information 09/2024
+# Private Token Sale Information 10/2024
 
 ## TL;DR
 
@@ -12,7 +12,7 @@ description: >-
 * **Token Sale:** Private sale of DM3 ERC20 tokens, with an initial max cap of 100 million tokens. Launch set for Q1/2025.
 * **Core Features:** End-to-end encryption, decentralization, multi-level privacy, interoperability, and scalability.
 * **Partnerships:** Integrations with ENS, Optimism, Gnosis, Lukso, Arbitrum, etc.
-* **Financials:** €4M funding target with tokens priced at €0.80 each. In the former fundraising round (pre-seed), €850k was raised through grants and pre-seed funding.
+* **Financials:** €4M funding target with tokens priced at €0.50 each. In the former fundraising round (pre-seed), €850k was raised through grants and pre-seed funding. (The future public sale price will be >1€.)
 * **Organization:** Managed by dm3.org gGmbH, a non-profit with community-driven governance.
 
 ## DM3 is the web3 messaging interoperability protocol.
@@ -90,9 +90,9 @@ description: >-
 
 ### Funding target
 
-* **Q3/2024**
+* **Q4/2024**
 * **€4M** \
-  (with the opportunities for tokens at 0.80€ per token)
+  (with the opportunities for tokens at 0.50€ per token)
 * Funding as Donations and opportunities for future DM3 Token (SAFT)
 
 ### Documents, Resources
@@ -103,8 +103,8 @@ description: >-
 * Specification, technical doc:\
   [https://specification.dm3.network](https://specification.dm3.network)
 * Pitch Deck:\
-  [Short Pitch](https://drive.google.com/open?id=19mHSZaQCqgJS12M7vVk-fmP0j8U0p2-9)\
-  [More detailed information](https://drive.google.com/open?id=1\_jm16xbaZFOvO-N2OFmJgo-t0CNBLR0y)
+  [Short Pitch](https://drive.google.com/open?id=1-Tb4id2ZhAz1pD9OLqtTsTrCoN9ANsO\_)\
+  [More detailed information](https://drive.google.com/open?id=1-NbCaKEppHP8enX-x0UHq5I6OGSJDZC5)
 * Sources, technical doc:\
   [https://github.com/dm3-org/dm3](https://github.com/dm3-org/dm3)\
   [https://github.com/orgs/dm3-org/repositories](https://github.com/orgs/dm3-org/repositories)
