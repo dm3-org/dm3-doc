@@ -103,8 +103,8 @@ description: >-
 * Specification, technical doc:\
   [https://specification.dm3.network](https://specification.dm3.network)
 * Pitch Deck:\
-  [Short Pitch](https://drive.google.com/open?id=1-Tb4id2ZhAz1pD9OLqtTsTrCoN9ANsO\_)\
-  [More detailed information](https://drive.google.com/open?id=1-NbCaKEppHP8enX-x0UHq5I6OGSJDZC5)
+  [Short Pitch](https://drive.google.com/open?id=103O1y2jAQ95vGBCS7GciSrnu8E4EQfjK)\
+  [Read Deck (More detailed information)](https://drive.google.com/open?id=101gi188-91pE516pceq1L6oAPm-GQXTS)
 * Sources, technical doc:\
   [https://github.com/dm3-org/dm3](https://github.com/dm3-org/dm3)\
   [https://github.com/orgs/dm3-org/repositories](https://github.com/orgs/dm3-org/repositories)
